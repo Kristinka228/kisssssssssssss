@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KISSKRISS — Beauty Ritual</title>
+    <meta name="description" content="KISSKRISS — современная косметика для ежедневного ритуала красоты.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+    <!-- ================= MENU ================= -->
+
+<button class="menu-open" id="menuOpen" aria-label="Открыть меню">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+
+<aside class="menu-sidebar" id="menuSidebar">
+
+    <div class="menu-header">
+        <span>МЕНЮ</span>
+
+        <button class="menu-close" id="menuClose">
+            ×
+        </button>
+    </div>
+
+    <div class="menu-content">
+
+        <a href="#" class="menu-login">
+            ВОЙТИ
+            <span>↗</span>
+        </a>
+
+        <div class="menu-item menu-catalog">
+
+            <button class="menu-catalog-button" id="menuCatalogButton">
+                <span>КАТАЛОГ</span>
+                <span class="catalog-arrow">↓</span>
+            </button>
+
+            <div class="menu-submenu" id="menuSubmenu">
+
+                <a href="#catalog">СЫВОРОТКИ</a>
+                <a href="#catalog">КРЕМЫ</a>
+                <a href="#catalog">ТОНЕРЫ</a>
+                <a href="#catalog">МАСКИ</a>
+                <a href="#catalog">ЭССЕНЦИЯ</a>
+                <a href="#catalog">ПОМАДЫ</a>
+
+            </div>
+
+        </div>
+
+        <a href="#about" class="menu-link">
+            О БРАНДЕ
+        </a>
+
+        <a href="#" class="menu-link">
+            ПОДАРОЧНЫЕ КАРТЫ
+        </a>
+
+        <a href="#" class="menu-link">
+            ДОСТАВКА И ОПЛАТА
+        </a>
+
+        <a href="#contacts" class="menu-link">
+            КОНТАКТЫ
+        </a>
+
+    </div>
+
+    <div class="menu-bottom">
+        <span>KISSKRISS</span>
+        <span>BEAUTY / CARE / RITUAL</span>
+    </div>
+
+</aside>
+
+<div class="menu-overlay" id="menuOverlay"></div>
+
+    <a href="#" class="logo">KISSKRISS</a>
+
+    <nav class="nav">
+        <a href="#catalog">КАТАЛОГ</a>
+        <a href="#about">О БРАНДЕ</a>
+        <a href="#ritual">РИТУАЛ</a>
+        <a href="#contacts">КОНТАКТЫ</a>
+    </nav>
+
+    <div class="header-actions">
+
+        <button class="favorites-open" id="favoritesOpen" aria-label="Избранное">
+            ♡ <span id="favoritesCount">0</span>
+        </button>
+
+        <button class="cart-open" id="cartOpen">
+            КОРЗИНА (<span id="cartCount">0</span>)
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<main>
+
+<section class="hero">
+
+    <div class="hero-background-circle"></div>
+
+    <div class="hero-content">
+
+        <div class="hero-eyebrow">
+            KISSKRISS / BEAUTY STUDIO
+        </div>
+
+        <h1>
+            BEAUTY<br>
+            <em>in every</em><br>
+            detail.
+        </h1>
+
+        <p class="hero-description">
+            Современный уход, созданный<br>
+            для твоего ежедневного ритуала.
+        </p>
+
+        <a href="#catalog" class="hero-button">
+            <span>СМОТРЕТЬ КОЛЛЕКЦИЮ</span>
+            <span>↗</span>
+        </a>
+
+    </div>
+
+    <div class="hero-product">
+
+        <div class="hero-product-glow"></div>
+
+        <img
+            src="images/Glow-Serum.png"
+            alt="KISSKRISS Glow Serum"
+        >
+
+        <div class="hero-product-note">
+            <span>01</span>
+            <span>GLOW SERUM</span>
+        </div>
+
+    </div>
+
+    <div class="hero-bottom">
+
+        <span>SKIN / BODY / MAKEUP</span>
+
+        <span>SCROLL TO EXPLORE ↓</span>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MARQUEE ================= -->
+
+<div class="marquee">
+
+    <div class="marquee-track">
+
+        <span>KISSKRISS</span>
+        <i>✦</i>
+        <span>BEAUTY WITHOUT THE NOISE</span>
+        <i>✦</i>
+        <span>KISSKRISS</span>
+        <i>✦</i>
+        <span>BEAUTY WITHOUT THE NOISE</span>
+        <i>✦</i>
+
+    </div>
+
+</div>
+
+
+<!-- ================= INTRO ================= -->
+
+<section class="intro">
+
+    <div class="intro-number">01</div>
+
+    <div class="intro-main">
+
+        <p class="small-label">THE KISSKRISS PHILOSOPHY</p>
+
+        <h2>
+            Меньше<br>
+            лишнего.<br>
+            <em>Больше тебя.</em>
+        </h2>
+
+    </div>
+
+    <div class="intro-text">
+
+        <p>
+            Мы верим, что уход не должен
+            превращаться в сложную систему.
+        </p>
+
+        <p>
+            Только любимые средства,
+            приятные текстуры и тот самый
+            момент, когда ты выбираешь себя.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CATALOG ================= -->
+
+<section class="catalog" id="catalog">
+
+    <div class="catalog-top">
+
+        <div>
+            <span class="section-number">02 / COLLECTION</span>
+
+            <h2>
+                THE<br>
+                EDIT
+            </h2>
+        </div>
+
+        <p>
+            Восемь средств для полного
+            beauty-ритуала — от очищения
+            до сияющего финала.
+        </p>
+
+    </div>
+
+
+    <div class="products">
+
+        <!-- PRODUCT 1 -->
+
+        <article class="product-card" data-product="hydra">
+
+            <button class="favorite-button" aria-label="Добавить в избранное">
+                ♡
+            </button>
+
+            <button class="product-open">
+
+                <div class="product-visual">
+
+                    <span class="product-tag">NEW</span>
+
+                    <img
+                        src="images/hydra-crem.png"
+                        alt="Hydra Cream"
+                        class="product-image"
+                    >
+
+                    <span class="view-product">
+                        ПОСМОТРЕТЬ ↗
+                    </span>
+
+                </div>
+
+            </button>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>Hydra Cream</h3>
+                    <p>Увлажняющий крем</p>
+                </div>
+
+                <span>2 490 ₽</span>
+
+            </div>
+
+            <button
+                class="add-button"
+                data-name="Hydra Cream"
+                data-price="2490"
+                data-image="images/hydra-crem.png"
+            >
+                ДОБАВИТЬ В КОРЗИНУ
+            </button>
+
+        </article>
+
+
+        <!-- PRODUCT 2 -->
+
+        <article class="product-card" data-product="glow">
+
+            <button class="favorite-button" aria-label="Добавить в избранное">
+                ♡
+            </button>
+
+            <button class="product-open">
+
+                <div class="product-visual">
+
+                    <span class="product-tag bestseller">
+                        BESTSELLER
+                    </span>
+
+                    <img
+                        src="images/Glow-Serum.png"
+                        alt="Glow Serum"
+                        class="product-image"
+                    >
+
+                    <span class="view-product">
+                        ПОСМОТРЕТЬ ↗
+                    </span>
+
+                </div>
+
+            </button>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>Glow Serum</h3>
+                    <p>Сияющая сыворотка</p>
+                </div>
+
+                <span>2 990 ₽</span>
+
+            </div>
+
+            <button
+                class="add-button"
+                data-name="Glow Serum"
+                data-price="2990"
+                data-image="images/Glow-Serum.png"
+            >
+                ДОБАВИТЬ В КОРЗИНУ
+            </button>
+
+        </article>
+
+
+        <!-- PRODUCT 3 -->
+
+        <article class="product-card" data-product="cleanser">
+
+            <button class="favorite-button" aria-label="Добавить в избранное">
+                ♡
+            </button>
+
+            <button class="product-open">
+
+                <div class="product-visual">
+
+                    <span class="product-tag">CLEAN</span>
+
+                    <div class="product-placeholder">
+                        <span>SOFT<br>CLEANSER</span>
+                    </div>
+
+                    <span class="view-product">
+                        ПОСМОТРЕТЬ ↗
+                    </span>
+
+                </div>
+
+            </button>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>Soft Cleanser</h3>
+                    <p>Мягкое очищение</p>
+                </div>
+
+                <span>1 890 ₽</span>
+
+            </div>
+
+            <button
+                class="add-button"
+                data-name="Soft Cleanser"
+                data-price="1890"
+                data-image=""
+            >
+                ДОБАВИТЬ В КОРЗИНУ
+            </button>
+
+        </article>
+
+
+        <!-- PRODUCT 4 -->
+
+        <article class="product-card" data-product="toner">
+
+            <button class="favorite-button" aria-label="Добавить в избранное">
+                ♡
+            </button>
+
+            <button class="product-open">
+
+                <div class="product-visual">
+
+                    <img
+                        src="images/Silky Toner .png"
+                        alt="Silky Toner"
+                        class="product-image"
+                    >
+
+                    <span class="view-product">
+                        ПОСМОТРЕТЬ ↗
+                    </span>
+
+                </div>
+
+            </button>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>Silky Toner</h3>
+                    <p>Шёлковый тонер</p>
+                </div>
+
+                <span>1 690 ₽</span>
+
+            </div>
+
+            <button
+                class="add-button"
+                data-name="Silky Toner"
+                data-price="1690"
+                data-image="images/Silky Toner .png"
+            >
+                ДОБАВИТЬ В КОРЗИНУ
+            </button>
+
+        </article>
+
+
+        <!-- PRODUCT 5 -->
+
+        <article class="product-card" data-product="essence">
+
+            <button class="favorite-button" aria-label="Добавить в избранное">
+                ♡
+            </button>
+
+            <button class="product-open">
+
+                <div class="product-visual">
+
+                    <img
+                        src="images/Silk Essense .png"
+                        alt="Silk Essence"
+                        class="product-image"
+                    >
+
+                    <span class="view-product">
+                        ПОСМОТРЕТЬ ↗
+                    </span>
+
+                </div>
+
+            </button>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>Silk Essence</h3>
+                    <p>Увлажняющая эссенция</p>
+                </div>
+
+                <span>1 990 ₽</span>
+
+            </div>
+
+            <button
+                class="add-button"
+                data-name="Silk Essence"
+                data-price="1990"
+                data-image="images/Silk Essense .png"
+            >
+                ДОБАВИТЬ В КОРЗИНУ
+            </button>
+
+        </article>
+
+
+        <!-- PRODUCT 6 -->
+
+        <article class="product-card" data-product="mask">
+
+            <button class="favorite-button" aria-label="Добавить в избранное">
+                ♡
+            </button>
+
+            <button class="product-open">
+
+                <div class="product-visual">
+
+                    <img
+                        src="images/Cloud Mask .png"
+                        alt="Cloud Mask"
+                        class="product-image"
+                    >
+
+                    <span class="view-product">
+                        ПОСМОТРЕТЬ ↗
+                    </span>
+
+                </div>
+
+            </button>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>Cloud Mask</h3>
+                    <p>Маска для мягкости</p>
+                </div>
+
+                <span>2 290 ₽</span>
+
+            </div>
+
+            <button
+                class="add-button"
+                data-name="Cloud Mask"
+                data-price="2290"
+                data-image="images/Cloud Mask .png"
+            >
+                ДОБАВИТЬ В КОРЗИНУ
+            </button>
+
+        </article>
+
+
+        <!-- PRODUCT 7 -->
+
+        <article class="product-card" data-product="blush">
+
+            <button class="favorite-button" aria-label="Добавить в избранное">
+                ♡
+            </button>
+
+            <button class="product-open">
+
+                <div class="product-visual">
+
+                    <span class="product-tag">MAKEUP</span>
+
+                    <img
+                        src="images/Blush Cream.png"
+                        alt="Blush Cream"
+                        class="product-image"
+                    >
+
+                    <span class="view-product">
+                        ПОСМОТРЕТЬ ↗
+                    </span>
+
+                </div>
+
+            </button>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>Blush Cream</h3>
+                    <p>Кремовые румяна</p>
+                </div>
+
+                <span>2 990 ₽</span>
+
+            </div>
+
+            <button
+                class="add-button"
+                data-name="Blush Cream"
+                data-price="2990"
+                data-image="images/Blush Cream.png"
+            >
+                ДОБАВИТЬ В КОРЗИНУ
+            </button>
+
+        </article>
+
+
+        <!-- PRODUCT 8 -->
+
+        <article class="product-card" data-product="balm">
+
+            <button class="favorite-button" aria-label="Добавить в избранное">
+                ♡
+            </button>
+
+            <button class="product-open">
+
+                <div class="product-visual">
+
+                    <img
+                        src="images/Soft Kiss .png"
+                        alt="Soft Kiss"
+                        class="product-image"
+                    >
+
+                    <span class="view-product">
+                        ПОСМОТРЕТЬ ↗
+                    </span>
+
+                </div>
+
+            </button>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>Soft Kiss</h3>
+                    <p>Увлажняющий бальзам</p>
+                </div>
+
+                <span>1 590 ₽</span>
+
+            </div>
+
+            <button
+                class="add-button"
+                data-name="Soft Kiss"
+                data-price="1590"
+                data-image="images/Soft Kiss .png"
+            >
+                ДОБАВИТЬ В КОРЗИНУ
+            </button>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about" id="about">
+
+    <div class="about-image">
+
+        <img
+            src="images/rirual.jpg"
+            alt="KISSKRISS beauty ritual"
+        >
+
+    </div>
+
+    <div class="about-content">
+
+        <span class="section-number">03 / ABOUT</span>
+
+        <h2>
+            LESS<br>
+            BUT<br>
+            <em>BETTER.</em>
+        </h2>
+
+        <p>
+            KISSKRISS — это косметика,
+            которую хочется видеть
+            в своей ванной каждый день.
+        </p>
+
+        <p>
+            Мы оставили только главное:
+            приятные текстуры, понятный уход
+            и продукты, которые становятся
+            маленькой частью твоего ритуала.
+        </p>
+
+        <div class="about-signature">
+            KISSKRISS / 2026
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= RITUAL ================= -->
+
+<section class="ritual" id="ritual">
+
+    <div class="ritual-content">
+
+        <span class="section-number">04 / YOUR RITUAL</span>
+
+        <h2>
+            CLEAN.<br>
+            HYDRATE.<br>
+            <em>GLOW.</em>
+        </h2>
+
+        <p>
+            Начни с очищения.
+            Добавь увлажнение.
+            Заверши сиянием.
+        </p>
+
+        <div class="ritual-line">
+            01 CLEAN → 02 HYDRATE → 03 GLOW
+        </div>
+
+    </div>
+
+    <div class="ritual-side">
+
+        <div class="ritual-circle">
+            K
+        </div>
+
+        <span>EVERYDAY<br>BEAUTY RITUAL</span>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACTS ================= -->
+
+<section class="contacts" id="contacts">
+
+    <div class="contacts-top">
+
+        <span class="section-number">05 / CONTACT</span>
+
+        <span>WE'D LOVE TO HEAR FROM YOU</span>
+
+    </div>
+
+    <h2>
+        SAY<br>
+        <em>HELLO.</em>
+    </h2>
+
+    <div class="contacts-grid">
+
+        <div>
+            <span>EMAIL</span>
+            <a href="mailto:hello@kisskriss.ru">
+                hello@kisskriss.ru
+            </a>
+        </div>
+
+        <div>
+            <span>PHONE</span>
+            <a href="tel:+78005553535">
+                +7 (800) 555-35-35
+            </a>
+        </div>
+
+        <div>
+            <span>ADDRESS</span>
+            <p>
+                Краснодар<br>
+                ул. Красная, 25
+            </p>
+        </div>
+
+        <div>
+            <span>SOCIAL</span>
+            <a href="#" class="fake-link">INSTAGRAM ↗</a>
+            <a href="#" class="fake-link">TELEGRAM ↗</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-logo">
+        KISSKRISS
+    </div>
+
+    <div>
+        BEAUTY / CARE / RITUAL
+    </div>
+
+    <div>
+        © 2026 KISSKRISS
+    </div>
+
+</footer>
+
+</main>
+
+
+<!-- ================= PRODUCT MODAL ================= -->
+
+<div class="modal" id="productModal">
+
+    <div class="modal-overlay" id="modalOverlay"></div>
+
+    <div class="product-modal">
+
+        <button class="modal-close" id="modalClose">
+            ×
+        </button>
+
+        <div class="modal-image">
+
+            <img id="modalImage" src="" alt="">
+
+        </div>
+
+        <div class="modal-content">
+
+            <span class="modal-category" id="modalCategory">
+                SKINCARE
+            </span>
+
+            <h2 id="modalTitle">
+                Product
+            </h2>
+
+            <p class="modal-price" id="modalPrice">
+                0 ₽
+            </p>
+
+            <p class="modal-description" id="modalDescription"></p>
+
+            <div class="modal-details">
+
+                <div>
+                    <span>НАЗНАЧЕНИЕ</span>
+                    <strong id="modalPurpose"></strong>
+                </div>
+
+                <div>
+                    <span>ОБЪЁМ</span>
+                    <strong id="modalVolume"></strong>
+                </div>
+
+                <div>
+                    <span>ПРОИЗВОДСТВО</span>
+                    <strong id="modalProduction"></strong>
+                </div>
+
+                <div>
+                    <span>СОСТАВ</span>
+                    <strong id="modalIngredients"></strong>
+                </div>
+
+            </div>
+
+            <button id="modalAdd" class="modal-add">
+                ДОБАВИТЬ В КОРЗИНУ
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= FAVORITES ================= -->
+
+<aside class="favorites-panel" id="favoritesPanel">
+
+    <div class="side-header">
+
+        <h2>ИЗБРАННОЕ</h2>
+
+        <button id="favoritesClose">×</button>
+
+    </div>
+
+    <div id="favoritesItems" class="favorites-items">
+
+        <div class="empty-message">
+            Здесь пока пусто ♡
+        </div>
+
+    </div>
+
+</aside>
+
+
+<div class="side-overlay" id="favoritesOverlay"></div>
+
+
+<!-- ================= CART ================= -->
+
+<aside class="cart-sidebar" id="cart">
+
+    <div class="side-header">
+
+        <h2>ВАША КОРЗИНА</h2>
+
+        <button id="cartClose">×</button>
+
+    </div>
+
+    <div class="cart-items" id="cartItems">
+
+        <div class="empty-message">
+            В корзине пока ничего нет
+        </div>
+
+    </div>
+
+    <div class="cart-bottom">
+
+        <div class="cart-total">
+
+            <span>ИТОГО</span>
+
+            <strong id="cartTotal">0 ₽</strong>
+
+        </div>
+
+        <button class="pay-button" id="payButton">
+            ОФОРМИТЬ ЗАКАЗ
+        </button>
+
+    </div>
+
+</aside>
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
